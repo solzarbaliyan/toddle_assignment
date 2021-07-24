@@ -3,11 +3,70 @@
     align-items: center;
 }
 
+
 .black{
-    width: 12px;
-    height: 20px;
+    width: 50px;
+    height: 55px;
     background-color: #bebfc2;
+    margin-right: 50px;
 }
 .App{
-    margin: auto;
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+
+.line{
+    width: 100%;
+    margin: 0;
+    height: 1px;
+    background-color: gray;
+}
+
+.blue{
+    color: cyan;
+    font-weight: bold;
+}
+
+.black-font{
+    color: black;
+    font-weight: bold;
+}
+
+.gray{
+    color: gray;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+}
+
+.heading-left{
+    width: 150px;
+    margin-right: 80px;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#new-text{
+    margin-bottom: 10px;
+}
+
+.add-button{
+    color: white;
+    background-color: royalblue;
+    border: none;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.new-input{
+    height: 30px;
 }
